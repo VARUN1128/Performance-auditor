@@ -163,11 +163,12 @@ export class AuditEngine {
     }
 
     // Images
-    const images = this.$('img')
+    const $ = this.$
+    const images = $('img')
     const totalImages = images.length
     let withAlt = 0
     images.each((_, el) => {
-      const alt = this.$(el).attr('alt')
+      const alt = $(el).attr('alt')
       if (alt !== undefined && alt !== '') withAlt++
     })
 
