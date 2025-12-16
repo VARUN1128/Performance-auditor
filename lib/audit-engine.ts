@@ -173,13 +173,13 @@ export class AuditEngine {
     })
 
     // Links
-    const allLinks = this.$('a[href]')
+    const allLinks = $('a[href]')
     let internal = 0
     let external = 0
     const baseUrl = new URL(this.url)
     
     allLinks.each((_, el) => {
-      const href = this.$(el).attr('href')
+      const href = $(el).attr('href')
       if (!href) return
       
       try {
