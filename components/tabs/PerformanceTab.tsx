@@ -3,6 +3,10 @@
 import type { PerformanceMetrics } from '@/types/audit'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts'
 
+interface PerformanceTabProps {
+  data: PerformanceMetrics
+}
+
 function MetricRow({ label, value, unit, goodThreshold, warningThreshold }: {
   label: string
   value: number
