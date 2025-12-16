@@ -73,14 +73,14 @@ export default function Home() {
                 </span>
               </div>
               <h2 className="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 leading-tight">
-                Optimize Your Website's
+                Optimize Your Website&apos;s
                 <br />
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
                   Performance & SEO
                 </span>
               </h2>
               <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-                Get comprehensive insights into your website's SEO, performance metrics, and technical health. 
+                Get comprehensive insights into your website&apos;s SEO, performance metrics, and technical health. 
                 <br className="hidden md:block" />
                 Identify issues and receive actionable recommendations to improve your online presence.
               </p>
@@ -125,7 +125,7 @@ export default function Home() {
                   Comprehensive Analysis Features
                 </h3>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                  Everything you need to understand and improve your website's performance
+                  Everything you need to understand and improve your website&apos;s performance
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -383,7 +383,7 @@ export default function Home() {
                   Why Choose Legacy SEO Optimizer?
                 </h3>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                  Everything you need to optimize your website's performance and SEO
+                  Everything you need to optimize your website&apos;s performance and SEO
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

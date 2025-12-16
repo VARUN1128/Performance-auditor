@@ -128,7 +128,7 @@ export default function SEOTab({ data }: SEOTabProps) {
           </div>
           {data.title.exists ? (
             <>
-              <p className="text-sm text-gray-600 mb-2">"{data.title.content}"</p>
+              <p className="text-sm text-gray-600 mb-2">&ldquo;{data.title.content}&rdquo;</p>
               <p className="text-xs text-gray-500">
                 Length: {data.title.length} characters {data.title.length < 30 || data.title.length > 60 ? '(Recommended: 30-60)' : ''}
               </p>
@@ -146,7 +146,7 @@ export default function SEOTab({ data }: SEOTabProps) {
           </div>
           {data.metaDescription.exists ? (
             <>
-              <p className="text-sm text-gray-600 mb-2">"{data.metaDescription.content}"</p>
+              <p className="text-sm text-gray-600 mb-2">&ldquo;{data.metaDescription.content}&rdquo;</p>
               <p className="text-xs text-gray-500">
                 Length: {data.metaDescription.length} characters {data.metaDescription.length < 120 || data.metaDescription.length > 160 ? '(Recommended: 120-160)' : ''}
               </p>
